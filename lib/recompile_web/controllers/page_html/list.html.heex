@@ -1,0 +1,4 @@
+<div :for={page <- @pages} style="margin-top: 20px;">
+  <%= page.title %>
+  <%= Phoenix.HTML.raw(page.body) %>
+</div>
